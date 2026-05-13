@@ -1,0 +1,54 @@
+body {
+    background: #e4e4e4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: #000;
+    background-image: url('caminho/para/imagem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header div {
+    position: absolute;
+    border: 1px solid #0000003d;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-inline: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #fff;
+    font-weight: bold;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    gap: 26px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.info h1 {
+    color: #000000d5;
+    text-align: left;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.info p {
+    max-width: 800px;
+}
+
+.info img {
+    background-color: #000;
+    width: 600px;
+    height: 350px;
+    border-radius: 6px;
+}
